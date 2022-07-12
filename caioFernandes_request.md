@@ -43,6 +43,12 @@ Esta rota atualiza os atributos do objeto cujo id foi passado no url pelos valor
 
 ## Rodando a aplicação
 
+O repositório backend pode ser encontrado aqui https://github.com/caio2525/corelab_Back_End
+
+O repositório frontend pode ser encontrado aqui https://github.com/caio2525/corelab_FrontEnd
+
+Um vídeo com explicações pode ser encontrado aqui https://clipchamp.com/watch/boa6FjiKfK6
+
 1. Clone o repositório e navegue até o diretório
 
 2. Primeiro rode um container com mongodb
@@ -59,5 +65,6 @@ Esta rota atualiza os atributos do objeto cujo id foi passado no url pelos valor
    docker run -p 3333:3333 --link some-mongo:some-mongo node/corelab-api
    ```
    A aplicação deve estar rodando na porta 3333
+
 
 
